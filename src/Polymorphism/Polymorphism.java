@@ -3,7 +3,7 @@ package Polymorphism;
 /**
  * Created by TSI on 5/11/2018.
  */
-public class Inheritance {
+public class Polymorphism {
 
     public static void main(String args[ ]) {
         Animal a = new Dog();
