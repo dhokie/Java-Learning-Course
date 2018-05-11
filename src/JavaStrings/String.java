@@ -1,5 +1,8 @@
 package JavaStrings;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by TSI on 5/11/2018.
  */
@@ -44,5 +47,26 @@ public class String {
         System.out.println("Convert to LowerCase: " + sample.toLowerCase());
         //Convert to UpperCase
         System.out.println("Convert to UpperCase: " + sample.toUpperCase());
+
+        //Java Hashmap Example
+        Map<java.lang.String, java.lang.String> objMap = new HashMap<>();
+        objMap.put("Name", "Suzuki");
+        objMap.put("Power", "220");
+        objMap.put("Type", "2-wheeler");
+        objMap.put("Price", "85000");
+        System.out.println("Elements of the Map:");
+        System.out.println(objMap);
+
+        //Remove a value from HashMap based on key
+        HashMap<Integer, java.lang.String> map = new HashMap<Integer, java.lang.String>();
+        map.put(1,"Java");
+        map.put(2, "Python");
+        map.put(3, "PHP");
+        map.put(4, "SQL");
+        map.put(5, "C++");
+        System.out.println("Tutorial in Guru99: "+ map);
+        // Remove value of key 5
+        map.remove(2);
+        System.out.println("Tutorial in Guru99 After Remove: "+ map);
     }
 }
