@@ -1,12 +1,12 @@
 package Arrays;
 
 import java.util.ArrayList;
-class Test_ArrayList {
+class ArrayListDemo {
     public static void main(String[] args) {
-        //Creating a generic ArrayList
+        //Creating a generic ArrayListDemo
         ArrayList arrayList = new ArrayList();
         //Size of arrayList
-        System.out.println("Size of ArrayList at creation: " + arrayList.size());
+        System.out.println("Size of ArrayListDemo at creation: " + arrayList.size());
         //Lets add some elements to it
         arrayList.add("J");
         arrayList.add("O");
@@ -14,9 +14,9 @@ class Test_ArrayList {
         arrayList.add("E");
 
         //Recheck the size after adding elements
-        System.out.println("Size of ArrayList after adding elements: " + arrayList.size());
+        System.out.println("Size of ArrayListDemo after adding elements: " + arrayList.size());
 
-        //Display all contents of ArrayList
+        //Display all contents of ArrayListDemo
         System.out.println("List of all elements: " + arrayList);
 
         //Remove some elements from the list
