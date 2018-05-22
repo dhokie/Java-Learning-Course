@@ -1,4 +1,4 @@
-package HowMathsbecomeeasywithJava;
+package howMathsbecomeeasywithJava;
 
 /**
  * Created by TSI on 5/21/2018.

@@ -1,4 +1,4 @@
-package HowtoSplitaStringinJava;
+package howtoSplitaStringinJava;
 
 /**
  * Created by TSI on 5/22/2018.

@@ -1,4 +1,4 @@
-package HowMathsbecomeeasywithJava;
+package howMathsbecomeeasywithJava;
 
 import java.util.Random;
 
